@@ -25,7 +25,11 @@ fun AppButton(modifier: Modifier = Modifier, text: String, onClick: () -> Unit) 
 }
 
 @Composable
-fun AppIconButton(modifier: Modifier = Modifier, icon: ImageVector, onClick: () -> Unit) {
+fun AppIconButton(
+    modifier: Modifier = Modifier,
+    icon: ImageVector,
+    onClick: () -> Unit,
+) {
     IconButton(
         onClick = onClick,
         modifier = Modifier
